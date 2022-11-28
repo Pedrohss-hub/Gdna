@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #440096;
+    height: 50px;
+
+}
+
+/* Header */
+.tit{
+    color: #F7ECE1;
+    text-align: center;
+    font-size: 28px;
+    -webkit-text-stroke: 0px black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.boxtit {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom:8px;
+    padding-top:8px;
+    width: 330px;
+    height: auto;
+    background-color: #120309;
+    border: 1.2px solid none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #0c0206;
+
+}
+
+/* Main */
+.container {
+    background-color: #fc6d53;
+    box-shadow: 2px 2px 15px #773023;
+    margin: auto;
+    width: 400px;
+    height: 282px;
+    border: 0px solid none;
+    border-radius: 4px;
+    padding: 14px;
+
+}
+
+#btjs {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: white;
+    border: 1.7px solid white;
+    border-radius: 10px;
+    padding: 3px;
+    color: #fc6d53;
+
+}
+
+#btjs:hover {
+    color: white;
+    background-color: #440096;
+    border: 1.7px solid #440096;
+    transition: 200ms;
+    cursor: pointer;
+
+}
+
+
+#numjs {
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.backnum {
+    margin: auto;
+    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border: 0px solid none;
+    border-radius: 3px;
+    padding-top: 3px;
+    cursor: default;
+
+}
+
+#respjs {
+    background-color: #fdf5ec;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3px;
+
+}
+
+.boxresp {
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 210px;
+    border-radius: 2px;
+
+}
+
+.back2 {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: #fdf5ec;
+    border: 0px solid none;
+    transform: translate(0%, -70.8%);
+    z-index: -1;
+
+}
+
+#humor {
+    margin: auto;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+#humor {
+    text-align: center;
+    color: black;
+    font-size: 58px;
+    cursor: default;
+
+}
+
+.posicao {
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.textf {
+    margin-top: 20px;
+    color: #120309;
+
+}
+
+.textf2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: #D1462F;
+
+}
+
+.boxfo {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    background-color: black;
+    margin-top: 125px;
+
+}
+
+.textfo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 18px;
+
+}
+
+.linkfo {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Responsividade */
+@media screen and (min-width: 320px) {
+    .back2 {
+        transform: translate(0%, -48.8%);
+      
+    }
+
+    .tit {
+        font-size: 28px;
+
+    }
+    .boxtit {
+        width: 350px;
+        height: 48px;
+
+    }
+    .container {
+        margin-top: 35px;
+        width: 320px;
+        height: 289px;
+    
+    }
+
+    #respjs {
+        font-size: 25px;
+
+    }
+
+    .boxresp {
+        transform: translate(0%, -490%);
+        height: 34px;
+        width: 210px;
+      
+    }
+
+    .backnum {
+        width: 100px;
+        height: 100px;
+      
+    }
+    
+    #numjs {
+        font-size: 80px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+    
+    #btjs {
+        transform: translate(0%, 350%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 20px;
+      
+    }
+    
+    #humor {
+        display: none;
+      
+    }
+
+    .posicao {
+        margin-top: 20px;
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    
+    }
+
+    .texf {
+        margin-top: 20px;
+        color: white;
+
+    }
+
+    .textf2 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        color: red;
+
+    }
+    
+    .boxfo {
+        position: relative;
+        width: 100%;
+        height: 52px;
+        background-color: black;
+        margin-top: 105px;
+    
+    }
+
+    .textfo {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 18px;
+    
+    }
+    
+    .linkfo {
+        text-decoration: none;
+        color: white;
+    
+    }
+
+  }
+
+@media screen and (min-width: 500px) {
+    .tit {
+        font-size: 28px;
+
+    }
+    .boxtit {
+        width: 420px;
+
+    }
+    .container {
+        width: 450px;
+
+    }
+    
+
+}
